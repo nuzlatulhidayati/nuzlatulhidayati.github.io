@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Table Nuzlatul Hidayati</title>
+  </head>
+  <style>
+    a {
+      text-decoration: none;
+      border: solid 1px blue;
+    }
+    h1 {
+      text-align: center;
+      margin-top: -10px;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 5px;
+    }
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    td {
+      border: 1px solid rgb(0, 0, 0);
+      text-align: left;
+      padding: 8px;
+      /* background-color: bisque; */
+    }
+    th {
+      background-color: aquamarine;
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    th:hover {
+      background-color: blue;
+      color: aliceblue;
+    }
+    tr {
+      background-color: bisque;
+      transition: 0.2s;
+      background-color: rgb(0, 255, 0);
+    }
+    tr:hover {
+      background-color: azure;
+    }
+
+    tr:nth-child(even) {
+      background-color: #0bddec;
+      transition: 0.2s;
+    }
+    tr:nth-child(even):hover {
+      background-color: #bb0bec;
+      color: aliceblue;
+    }
+    .delete {
+      background-color: red;
+      color: rgb(246, 242, 242);
+      transition: 0.2s;
+    }
+    .delete:hover {
+      background-color: blue;
+      transform: scale(1);
+    }
+  </style>
+  <body>
+    <h1>My Best 5 Friends</h1>
+    <h2>Nuzlatul Hidayati</h2>
+    <h2>41215686</h2>
+
+    <table>
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Alamat</th>
+        <th colspan="2">Aksi</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Nunung Nur</td>
+        <td>Cilacap</td>
+        <td>Edit</td>
+        <td>Hapus</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Irsyad</td>
+        <td>Jakarta</td>
+        <td>Edit</td>
+        <td>Hapus</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Amaliyah </td>
+        <td>Cilacap</td>
+        <td>Edit</td>
+        <td>Hapus</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Agif</td>
+        <td>Majalengka</td>
+        <td>Edit</td>
+        <td>Hapus</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Mutia</td>
+        <td>Karawang</td>
+        <td>Edit</td>
+        <td>Hapus</td>
+      </tr>
+    </table>
+    <a href="../index.html"> Kembali </a>
+  </body>
+</html>
